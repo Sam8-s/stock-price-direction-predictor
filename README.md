@@ -1,15 +1,32 @@
 # Stock Price Direction Predictor
 
-This project predicts whether a stock price will go up or down the next day using Machine Learning.
+## Setup
 
-## Features
-- SMA
-- EMA
-- RSI
-- Volume
+1. Clone the repository
 
-## Model
-Random Forest Classifier
+```
+git clone https://github.com/Sam8-s/stock-price-direction-predictor.git
+cd stock-price-direction-predictor
+```
 
-## Libraries
-Python, Pandas, Pandas-ta, Scikit-learn, yfinance
+2. Install required libraries
+
+```
+pip install -r requirements.txt
+```
+
+3. Download dataset
+
+```
+python download_data.py
+```
+
+4. Run the project
+
+```
+python stock_predictor.py
+```
+
+## Dataset
+
+https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset
